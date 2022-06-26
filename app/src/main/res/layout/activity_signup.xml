@@ -75,12 +75,16 @@
             android:layout_marginTop="40dp"
             android:textSize="20dp"
             android:paddingBottom="17dp"
+            android:drawableStart="@drawable/mail_icon"
+            android:drawablePadding="6dp"
             android:drawableEnd="@drawable/email_close_icon"/>
         <EditText
             android:layout_width="355dp"
             android:layout_height="wrap_content"
             android:hint="Enter Address"
             android:id="@+id/address"
+            android:drawableStart="@drawable/location_icon"
+            android:drawablePadding="6dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:textSize="20dp"
@@ -93,6 +97,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:textSize="20dp"
+            android:drawableStart="@drawable/password_icon"
+            android:drawablePadding="6dp"
             android:paddingBottom="17dp"/>
 
         <Button
