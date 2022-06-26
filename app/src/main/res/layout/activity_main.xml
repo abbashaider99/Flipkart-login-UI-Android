@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#047bd5"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <ImageView
+          android:layout_width="170dp"
+          android:layout_height="60dp"
+          android:layout_marginTop="15dp"
+          android:layout_marginLeft="8dp"
+          android:src="@drawable/main_logo">
+      </ImageView>
+      <ImageView
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+         android:src="@drawable/close_icon"
+         android:layout_marginLeft="157dp"
+         android:layout_marginTop="24dp"
+          android:id="@+id/crossHome"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:orientation="horizontal">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Sign in to access your,\nOrders,Wishlist and\nRecommendations."
+          android:textColor="@color/white"
+          android:textSize="21dp"
+         android:layout_marginLeft="15dp"
+          android:layout_marginTop="40dp"/>
+
+      <ImageView
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginLeft="50dp"
+          android:layout_marginTop="30dp"
+          android:src="@drawable/promotion" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="70dp"
+       android:orientation="vertical"
+      android:background="@drawable/signin_layout_whitebg">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:text="Sign In"
+          android:layout_marginTop="15dp"
+          android:textSize="20sp"
+          android:textColor="#047bd5"/>
+      <EditText
+          android:layout_width="355dp"
+          android:layout_height="wrap_content"
+         android:hint="Email/Mobile no."
+         android:id="@+id/email"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="40dp"
+         android:textSize="20dp"
+          android:paddingBottom="17dp"
+         android:drawableEnd="@drawable/email_close_icon"/>
+      <EditText
+          android:layout_width="355dp"
+          android:layout_height="wrap_content"
+          android:hint="Password"
+          android:id="@+id/password"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="20dp"
+          android:textSize="20dp"
+          android:paddingBottom="17dp"/>
+
+      <Button
+          android:layout_width="355dp"
+          android:layout_height="wrap_content"
+          android:hint="SIGN IN"
+          android:id="@+id/signin"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="20dp"
+          android:textColorHint="@color/white"
+          android:background="@drawable/signin_draw"
+          android:textSize="20dp" />
+
+      <Button
+          android:layout_width="355dp"
+          android:layout_height="wrap_content"
+          android:hint="New to flipkart? SIGNUP"
+          android:id="@+id/signup"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="20dp"
+          android:textColorHint="#047bd5"
+          android:background="@drawable/signup_draw"
+          android:textSize="15dp" />
+
+   </LinearLayout>
+
+
+</LinearLayout>
